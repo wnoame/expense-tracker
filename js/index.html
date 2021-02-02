@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <!-- Expense Heading -->
+        <div class="expense__heading">
+            <div class="expense__title">
+                <h1>Expense Tracker</h1>
+            </div>
+            <div class="expense__detail">
+                <h3>Add A New Item:</h3>
+            </div>
+        </div>
+
+        <!-- Expense Form -->
+        <div class="expense__form">
+            <div class="expense__details">
+                <form action="">
+                    <label for="">Name:</label>
+                    <input type="text" class="input__name">
+                    <label for="">Date:</label>
+                    <input type="date" class="input__date">
+                    <label for="">Amount:</label>
+                    <input type="text" class="input__amount">
+                </form>
+            </div>
+            <div class="expense__add">
+                <button class="expense__btn">Add Expense</button>
+            </div>
+        </div>
+
+        <!-- Expense table -->
+            <div class="table__container">
+                <table>
+                    <thead>
+                        <tr>
+                        <th>Name</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+                    <tr>
+                        <td>Clothes</td>
+                        <td>10-20-2020</td>
+                    <td>$1000</td>
+                    <td><button class="del__btn">X</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
